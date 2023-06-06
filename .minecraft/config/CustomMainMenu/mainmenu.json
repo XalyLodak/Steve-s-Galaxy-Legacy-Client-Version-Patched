@@ -1,0 +1,152 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "sg:textures/sglogo.png",
+            "posX" : -140,
+            "posY" : 0,
+            "width" : 277.5,
+            "height" : 165,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Play Alone",
+            "posX" : -120,
+            "posY" : 105,
+            "width" : 120,
+            "height" : 24,
+            "texture" : "sg:textures/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Play Online",
+            "posX" : 0,
+            "posY" : 105,
+            "width" : 120,
+            "height" : 24,
+            "texture" : "sg:textures/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "visit":
+        {
+            "text": "Visit EnderPlay",
+            "posX": -120,
+            "posY" : 140,
+            "width" : 120,
+            "height" : 24,
+            "texture" : "sg:textures/button.png",
+            "action" :
+            {
+                "type": "openLink",
+                "link" : "http://enderplay.com"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 0,
+            "posY" : 140,
+            "width" : 120,
+            "height" : 24,
+            "texture" : "sg:textures/button.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "",
+            "posX" : 180,
+            "posY" : 145,
+            "width" : 30,
+            "height" : 30,
+            "texture" : "sg:textures/settings.png",
+            "action":
+            {
+            	"type": "openGui",
+            	"gui": "options"
+            }
+        },
+        
+        "emlogo":
+        {
+            "text" : "",
+            "posX" : -210,
+            "posY" : -60,
+            "width" : 30,
+            "height" : 30,
+            "texture" : "sg:textures/emlogo.png",
+            "action":
+            {
+                "type": "openLink",
+                "link" : "http://endermedia.com"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -210,
+            "posY" : 145,
+            "width": 30,
+            "height" : 30,
+            "texture" : "sg:textures/languages.png",
+            "action":
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : 0,
+            "posY" : 0,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "file" : "sg:texts/splashes.txt",
+            "color" : -1,
+            "alignment" : "top_center"
+        },
+        
+        "panorama":
+        {
+            "images" : "sg:textures/gui/title/background/panorama_%c.png",
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

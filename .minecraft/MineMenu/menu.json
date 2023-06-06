@@ -1,0 +1,104 @@
+{
+  "main": {
+    "0": {
+      "title": "Teleport to Spawn",
+      "icon": {
+        "name": "minecraft:beacon",
+        "damage": 0
+      },
+      "action": {
+        "command": "/spawn"
+      }
+    },
+    "1": {
+      "title": "Sell XP (1 Level)",
+      "icon": {
+        "name": "minecraft:experience_bottle",
+        "damage": 0
+      },
+      "action": {
+        "command": "/xpshop selllevel 1"
+      }
+    },
+    "2": {
+      "title": "Donate",
+      "icon": {
+        "name": "minecraft:emerald",
+        "damage": 0
+      },
+      "action": {
+        "command": "/buy"
+      }
+    },
+    "3": {
+      "title": "Server Rules",
+      "icon": {
+        "name": "minecraft:sign",
+        "damage": 0
+      },
+      "action": {
+        "command": "/rules"
+      }
+    },
+    "4": {
+      "title": "Set Home",
+      "icon": {
+        "name": "TConstruct:SearedBrick",
+        "damage": 0
+      },
+      "action": {
+        "command": "/sethome"
+      }
+    },
+    "5": {
+      "title": "Wilderness Teleport (Random)",
+      "icon": {
+        "name": "EnderIO:itemTravelStaff",
+        "damage": 0
+      },
+      "action": {
+        "command": "/rtp 100 2000"
+      }
+    },
+    "6": {
+      "title": "Teleport Home",
+      "icon": {
+        "name": "TConstruct:CraftingStation",
+        "damage": 0
+      },
+      "action": {
+        "command": "/home"
+      }
+    },
+    "7": {
+      "title": "Return to Death Spot",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 0
+      },
+      "action": {
+        "command": "/back"
+      }
+    },
+    "8": {
+      "title": "Towny Help",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "command": "/t help"
+      }
+    },
+    "9": {
+      "title": "Claims Help",
+      "icon": {
+        "name": "minecraft:golden_shovel",
+        "damage": 0
+      },
+      "action": {
+        "command": "/help griefprevention"
+      }
+    }
+  }
+}
